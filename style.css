@@ -1,3 +1,15 @@
 p {
 	color: green;
 }
+
+a[href^="https://"] {
+	color: red;
+}
+
+ul[class="list"]>li:last-child {
+	background-color: green;
+}
+
+ul+p {
+	font-size: 26px;
+}
