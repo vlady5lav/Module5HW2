@@ -1,6 +1,8 @@
+/*
 p {
 	color: green;
 }
+*/
 
 a[href^="https://"] {
 	color: red;
@@ -12,4 +14,24 @@ ul[class="list"]>li:last-child {
 
 ul+p {
 	font-size: 26px;
+}
+
+div[class="text-box"]>h3:first-child {
+	color: pink;
+}
+
+p[id="greycol"] {
+	color: grey;
+}
+
+div>p:first-child {
+	color: red;
+}
+
+div + h3 + p {
+	color: green;
+}
+
+p[class="yellow"] {
+	color: yellow;
 }
