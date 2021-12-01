@@ -8,30 +8,30 @@ a[href^="https://"] {
 	color: red;
 }
 
-ul[class="list"]>li:last-child {
+ul.list > li:last-child {
 	background-color: green;
 }
 
-div[class="holder"]>ul[class="list"]+p {
+div.holder > ul.list + p {
 	font-size: 26px;
 }
 
-div[class="text-box"]>h3:first-child {
+div.text-box > h3:first-child {
 	color: pink;
 }
 
-p[id="greycol"] {
+p#greycol {
 	color: grey;
 }
 
-div>p:first-child {
+div > p:first-child {
 	color: red;
 }
 
-div[class="text-box"]>p:nth-last-child(2) {
+div.text-box > p:nth-last-child(2) {
 	color: green;
 }
 
-p[class="yellow"] {
+p.yellow {
 	color: yellow;
 }
