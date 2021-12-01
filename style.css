@@ -12,7 +12,7 @@ ul[class="list"]>li:last-child {
 	background-color: green;
 }
 
-ul+p {
+div[class="holder"]>ul[class="list"]+p {
 	font-size: 26px;
 }
 
@@ -28,7 +28,7 @@ div>p:first-child {
 	color: red;
 }
 
-div + h3 + p {
+div[class="text-box"]>p:nth-last-child(2) {
 	color: green;
 }
 
